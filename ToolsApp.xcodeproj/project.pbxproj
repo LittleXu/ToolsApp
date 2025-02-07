@@ -17,6 +17,9 @@
 		821911952BFF2A3800810C49 /* PhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821911942BFF2A3800810C49 /* PhotoBrowser.swift */; };
 		821911972C003DFA00810C49 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821911962C003DFA00810C49 /* ActivityIndicator.swift */; };
 		821911992C0097E400810C49 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821911982C0097E400810C49 /* Launch Screen.storyboard */; };
+		821AC4122D560ABB00A21BF0 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 821AC4102D560ABB00A21BF0 /* privacy.html */; };
+		821AC4132D560ABB00A21BF0 /* eula.html in Resources */ = {isa = PBXBuildFile; fileRef = 821AC40F2D560ABB00A21BF0 /* eula.html */; };
+		821AC4142D560ABB00A21BF0 /* user.html in Resources */ = {isa = PBXBuildFile; fileRef = 821AC4112D560ABB00A21BF0 /* user.html */; };
 		821E19CA2BFADC6A00360AB6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E19C92BFADC6A00360AB6 /* Common.swift */; };
 		821E19CE2BFB1F3C00360AB6 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E19CD2BFB1F3C00360AB6 /* PhotoPicker.swift */; };
 		821E19D02BFB4B8100360AB6 /* BarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E19CF2BFB4B8100360AB6 /* BarCodeView.swift */; };
@@ -66,6 +69,9 @@
 		821911942BFF2A3800810C49 /* PhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowser.swift; sourceTree = "<group>"; };
 		821911962C003DFA00810C49 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		821911982C0097E400810C49 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		821AC40F2D560ABB00A21BF0 /* eula.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = eula.html; sourceTree = "<group>"; };
+		821AC4102D560ABB00A21BF0 /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		821AC4112D560ABB00A21BF0 /* user.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = user.html; sourceTree = "<group>"; };
 		821E19C92BFADC6A00360AB6 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		821E19CD2BFB1F3C00360AB6 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		821E19CF2BFB4B8100360AB6 /* BarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeView.swift; sourceTree = "<group>"; };
@@ -145,6 +151,27 @@
 				8219118A2BFDF78B00810C49 /* LinkInutView.swift */,
 			);
 			path = webview;
+			sourceTree = "<group>";
+		};
+		821AC40D2D560A9600A21BF0 /* gifs */ = {
+			isa = PBXGroup;
+			children = (
+				82F5356D2C085B240036D420 /* gogogo_1.gif */,
+				82F5356F2C096F730036D420 /* gogogo_2.gif */,
+				82F535702C096F730036D420 /* gogogo_3.gif */,
+				82F535752C0971CC0036D420 /* gogogo_4.gif */,
+			);
+			path = gifs;
+			sourceTree = "<group>";
+		};
+		821AC40E2D560AA700A21BF0 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				821AC40F2D560ABB00A21BF0 /* eula.html */,
+				821AC4102D560ABB00A21BF0 /* privacy.html */,
+				821AC4112D560ABB00A21BF0 /* user.html */,
+			);
+			path = html;
 			sourceTree = "<group>";
 		};
 		821E19D52BFC393F00360AB6 /* barcode */ = {
@@ -284,10 +311,8 @@
 		82F5356C2C085B180036D420 /* rosources */ = {
 			isa = PBXGroup;
 			children = (
-				82F5356D2C085B240036D420 /* gogogo_1.gif */,
-				82F5356F2C096F730036D420 /* gogogo_2.gif */,
-				82F535702C096F730036D420 /* gogogo_3.gif */,
-				82F535752C0971CC0036D420 /* gogogo_4.gif */,
+				821AC40E2D560AA700A21BF0 /* html */,
+				821AC40D2D560A9600A21BF0 /* gifs */,
 			);
 			path = rosources;
 			sourceTree = "<group>";
@@ -375,6 +400,9 @@
 				829F5BDC2C0565EB00ED6D22 /* durian.gif in Resources */,
 				829F5BD82C04917A00ED6D22 /* durian.mp4 in Resources */,
 				82F535732C096F730036D420 /* gogogo_3.gif in Resources */,
+				821AC4122D560ABB00A21BF0 /* privacy.html in Resources */,
+				821AC4132D560ABB00A21BF0 /* eula.html in Resources */,
+				821AC4142D560ABB00A21BF0 /* user.html in Resources */,
 				821911992C0097E400810C49 /* Launch Screen.storyboard in Resources */,
 				82F535722C096F730036D420 /* gogogo_2.gif in Resources */,
 				82F535762C0971CC0036D420 /* gogogo_4.gif in Resources */,

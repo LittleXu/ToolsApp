@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户协议与隐私政策</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .button-container {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+        }
+        .agree {
+            background-color: #28a745;
+            color: white;
+        }
+        .reject {
+            background-color: #dc3545;
+            color: white;
+        }
+        .link {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>用户协议与隐私政策</h2>
+        <p>尊敬的用户，欢迎使用【榴莲工具箱】！</p>
+        <p>为了向您提供更好的服务，请您仔细阅读并同意以下内容：</p>
+        
+        <h3>隐私政策</h3>
+        <p>我们非常重视您的隐私保护，详细说明了我们如何收集、使用、存储和共享您的个人信息。请阅读 <a href="privacy.html" class="link">《隐私政策》</a> 以了解更多。</p>
+        
+        <h3>用户协议</h3>
+        <p>使用本App即表示您同意遵守 <a href="user.html" class="link">《用户协议》</a> 中的条款和条件，请务必仔细阅读。</p>
+        
+        <h3>权限申请</h3>
+        <ul>
+            <li><strong>位置权限：</strong> 用于【定位服务】</li>
+            <li><strong>相机权限：</strong> 用于【扫码功能】</li>
+            <li><strong>相册权限：</strong> 用于【上传图片】</li>
+            <li><strong>存储权限：</strong> 用于【保存文件】</li>
+        </ul>
+        <p>您可以在设备设置中随时关闭这些权限。</p>
+        
+        <h3>未成年人保护</h3>
+        <p>我们严格遵守未成年人保护相关法律法规，未满18周岁的用户需在监护人指导下使用本App。</p>
+        
+        <h3>广告与个性化推荐</h3>
+        <p>我们可能会根据您的兴趣提供个性化推荐服务，您可以在设置中关闭个性化推荐功能。</p>
+        
+        <h3>免责声明</h3>
+        <p>本App仅提供【功能说明】，不对因使用或无法使用本App所引发的任何直接或间接损失承担责任。</p>
+        
+        <h3>联系方式</h3>
+        <p>如有任何问题或建议，请联系我们：</p>
+        <p>客服邮箱：<a href="mailto:690127653@qq.com" class="link">690127653@qq.com</a></p>
+                
+        <h3>法律声明</h3>
+        <p>请您遵守中华人民共和国相关法律法规，不得利用本App从事任何非法活动。</p>
+        
+        <div class="button-container">
+            <button class="button agree" onclick="acceptTerms()">同意并继续</button>
+            <button class="button reject" onclick="rejectTerms()">拒绝并退出</button>
+        </div>
+    </div>
+    
+    <script>
+        function acceptTerms() {
+            alert("您已同意用户协议和隐私政策。");
+            // 可跳转到主页面 window.location.href = 'home.html';
+        }
+        
+        function rejectTerms() {
+            alert("您已拒绝用户协议，应用将退出。");
+            // 可执行退出操作，如关闭应用 window.close();
+        }
+    </script>
+</body>
+</html>
