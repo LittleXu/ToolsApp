@@ -15,6 +15,11 @@ typealias B1<T> = (T)->Void
 typealias B2<T1, T2> = (T1, T2)->Void
 typealias B3<T1, T2, T3> = (T1, T2, T3)->Void
 
+extension Common {
+    static let aboutUsURL = "https://happy-fall-be3.notion.site/2833f76429294b24825a32a8efefa7d2?pvs=4"
+    static let privacyURL = "https://happy-fall-be3.notion.site/17d82ca17933802cad97db3bcc3fde65?pvs=4"
+}
+
 
 extension Common {
     static func saveImageToPhotos(_ image: UIImage, completion: @escaping () -> Void) {

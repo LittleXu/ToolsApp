@@ -45,6 +45,7 @@
 		829F5BD82C04917A00ED6D22 /* durian.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 829F5BD72C04917A00ED6D22 /* durian.mp4 */; };
 		829F5BDA2C05658D00ED6D22 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F5BD92C05658D00ED6D22 /* GifView.swift */; };
 		829F5BDC2C0565EB00ED6D22 /* durian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 829F5BDB2C0565EB00ED6D22 /* durian.gif */; };
+		82AE38AB2D563DDC000B3A24 /* LocalWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE38AA2D563DDC000B3A24 /* LocalWebView.swift */; };
 		82D077722C05ACD400F7ECF6 /* TurnTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D077712C05ACD400F7ECF6 /* TurnTableView.swift */; };
 		82D077742C05AD3D00F7ECF6 /* LotteryWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D077732C05AD3D00F7ECF6 /* LotteryWheelView.swift */; };
 		82D077762C06C46100F7ECF6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D077752C06C46100F7ECF6 /* ColorExtension.swift */; };
@@ -97,6 +98,8 @@
 		829F5BD72C04917A00ED6D22 /* durian.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = durian.mp4; sourceTree = "<group>"; };
 		829F5BD92C05658D00ED6D22 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
 		829F5BDB2C0565EB00ED6D22 /* durian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = durian.gif; sourceTree = "<group>"; };
+		82AE38AA2D563DDC000B3A24 /* LocalWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebView.swift; sourceTree = "<group>"; };
+		82AE38AC2D5654AA000B3A24 /* ToolsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToolsApp.entitlements; sourceTree = "<group>"; };
 		82D077712C05ACD400F7ECF6 /* TurnTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnTableView.swift; sourceTree = "<group>"; };
 		82D077732C05AD3D00F7ECF6 /* LotteryWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryWheelView.swift; sourceTree = "<group>"; };
 		82D077752C06C46100F7ECF6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -148,6 +151,7 @@
 			children = (
 				821911882BFDF58500810C49 /* BrowerView.swift */,
 				821911862BFDF48800810C49 /* WebView.swift */,
+				82AE38AA2D563DDC000B3A24 /* LocalWebView.swift */,
 				8219118A2BFDF78B00810C49 /* LinkInutView.swift */,
 			);
 			path = webview;
@@ -225,6 +229,7 @@
 		822D16DB2BF75E9D00CCE42A /* ToolsApp */ = {
 			isa = PBXGroup;
 			children = (
+				82AE38AC2D5654AA000B3A24 /* ToolsApp.entitlements */,
 				821911832BFD8E8F00810C49 /* Info.plist */,
 				822D16DC2BF75E9D00CCE42A /* ToolsAppApp.swift */,
 				822D16DE2BF75E9D00CCE42A /* ContentView.swift */,
@@ -459,6 +464,7 @@
 				821E19D92BFC3AFD00360AB6 /* WaterMaskView.swift in Sources */,
 				829F5BDA2C05658D00ED6D22 /* GifView.swift in Sources */,
 				826EDC822C0416A000286EA9 /* VideoPicker.swift in Sources */,
+				82AE38AB2D563DDC000B3A24 /* LocalWebView.swift in Sources */,
 				822D16EC2BF75F3A00CCE42A /* QRCodeView.swift in Sources */,
 				82D077742C05AD3D00F7ECF6 /* LotteryWheelView.swift in Sources */,
 				826EDC802C04143000286EA9 /* Video2GIFView.swift in Sources */,
@@ -606,14 +612,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
-				DEVELOPMENT_TEAM = RFZUUCWX36;
+				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToolsApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "榴莲工具箱";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许本项目使用您的相机?以便于获取并处理图片";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "是否允许本项目使用您的本地网络?以便于查找附近的设备";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
@@ -630,8 +639,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaaforex.test.ToolsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -644,14 +658,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
-				DEVELOPMENT_TEAM = RFZUUCWX36;
+				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToolsApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "榴莲工具箱";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许本项目使用您的相机?以便于获取并处理图片";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "是否允许本项目使用您的本地网络?以便于查找附近的设备";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
@@ -668,8 +685,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaaforex.test.ToolsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

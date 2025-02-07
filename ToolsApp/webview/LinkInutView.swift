@@ -9,11 +9,14 @@ import SwiftUI
 
 
 enum BrowerType {
+    case normal
     case screenshot
     case extractImages
     
     func title() -> String {
         switch self {
+        case .normal:
+            return ""
         case .screenshot:
             return "网页截长图"
         case .extractImages:
@@ -24,6 +27,8 @@ enum BrowerType {
     
     func buttonTitle() -> String {
         switch self {
+        case .normal:
+            return ""
         case .screenshot:
             return "截图"
         case .extractImages:
@@ -33,6 +38,8 @@ enum BrowerType {
     
     func buttonImageName() -> String {
         switch self {
+        case .normal:
+            return ""
         case .screenshot:
             return "camera.viewfinder"
         case .extractImages:

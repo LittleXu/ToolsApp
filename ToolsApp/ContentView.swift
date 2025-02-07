@@ -85,12 +85,28 @@ struct ContentView: View {
                 
                 
                 Section {
-                 
-                                        
                     NavigationLink {
-                        LimitHeightGifView(path: Bundle.main.path(forResource: "durian", ofType: "gif")!)
+                        BrowerView(urlString: Common.aboutUsURL, type: .normal)
                     } label: {
-                        ContentListView(systemImageName: "testtube.2", text: "测试")
+                        ContentListView(systemImageName: "info.circle", text: "关于我们")
+                    }
+                    
+                    NavigationLink {
+                        LocalWebView(htmlPath: Bundle.main.path(forResource: "eula", ofType: "html")!)
+                    } label: {
+                        ContentListView(systemImageName: "doc.text", text: "EULA")
+                    }
+                    
+                    NavigationLink {
+                        LocalWebView(htmlPath: Bundle.main.path(forResource: "user", ofType: "html")!)
+                    } label: {
+                        ContentListView(systemImageName: "shield.lefthalf.filled", text: "用户协议")
+                    }
+                    
+                    NavigationLink {
+                        LocalWebView(htmlPath: Bundle.main.path(forResource: "privacy", ofType: "html")!)
+                    } label: {
+                        ContentListView(systemImageName: "checkmark.shield", text: "隐私政策")
                     }
                     
                 } header: {
