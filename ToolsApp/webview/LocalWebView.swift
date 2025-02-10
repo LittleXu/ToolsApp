@@ -11,10 +11,35 @@ import WebKit
 import SwiftUI
 
 
+struct LocalWebView: View {
+    
+    @Environment(\.presentationMode) var presentationMode
+    let htmlPath: String
+    let title: String
+    var body: some View {
+        _LocalWebView(htmlPath: htmlPath)
+            .navigationBarBackButtonHidden()
+            .navigationBarItems(leading: Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }, label: {
+                HStack {
+                    Image(systemName: "chevron.backward")
+                    Text(title)
+                }
+                .foregroundColor(.black)
+            }))
+    }
+}
+
+#Preview {
+    NavigationView(content: {
+        LocalWebView(htmlPath: Bundle.main.path(forResource: "eula", ofType: "html")!, title: "用户协议")
+    })
+}
 
 
 
-struct LocalWebView: UIViewRepresentable {
+struct _LocalWebView: UIViewRepresentable {
     let htmlPath: String
     
     func makeUIView(context: Context) -> WKWebView {
