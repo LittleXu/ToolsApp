@@ -78,7 +78,7 @@
 		821E19CF2BFB4B8100360AB6 /* BarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeView.swift; sourceTree = "<group>"; };
 		821E19D82BFC3AFD00360AB6 /* WaterMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMaskView.swift; sourceTree = "<group>"; };
 		821E19DA2BFC3D0800360AB6 /* WaterMasterUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMasterUtil.swift; sourceTree = "<group>"; };
-		822D16D92BF75E9D00CCE42A /* ToolsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822D16D92BF75E9D00CCE42A /* 榴莲工具箱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "榴莲工具箱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		822D16DC2BF75E9D00CCE42A /* ToolsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsAppApp.swift; sourceTree = "<group>"; };
 		822D16DE2BF75E9D00CCE42A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		822D16E02BF75EA000CCE42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 		822D16DA2BF75E9D00CCE42A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				822D16D92BF75E9D00CCE42A /* ToolsApp.app */,
+				822D16D92BF75E9D00CCE42A /* 榴莲工具箱.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -354,7 +354,7 @@
 				8252C12E2C0FFC6A00BA0F09 /* PopupView */,
 			);
 			productName = ToolsApp;
-			productReference = 822D16D92BF75E9D00CCE42A /* ToolsApp.app */;
+			productReference = 822D16D92BF75E9D00CCE42A /* 榴莲工具箱.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -615,7 +615,7 @@
 				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
@@ -623,7 +623,6 @@
 				INFOPLIST_FILE = ToolsApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "榴莲工具箱";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许本项目使用您的相机?以便于获取并处理图片";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "是否允许本项目使用您的本地网络?以便于查找附近的设备";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
@@ -640,7 +639,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "榴莲工具箱";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -661,7 +660,7 @@
 				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
@@ -669,7 +668,6 @@
 				INFOPLIST_FILE = ToolsApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "榴莲工具箱";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许本项目使用您的相机?以便于获取并处理图片";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "是否允许本项目使用您的本地网络?以便于查找附近的设备";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
@@ -686,7 +684,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "榴莲工具箱";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
