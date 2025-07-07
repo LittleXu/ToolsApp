@@ -11,7 +11,7 @@
 	<array>
 		<string>_http._tcp</string>
 	</array>
-    <key>LSRequiresIPhoneOS</key>
-    <true/>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
 </dict>
 </plist>

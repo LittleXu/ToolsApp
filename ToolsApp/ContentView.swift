@@ -117,19 +117,19 @@ struct ContentView: View {
                     }
                     
                     NavigationLink {
-                        LocalWebView(htmlPath: Bundle.main.path(forResource: "eula", ofType: "html")!)
+                        LocalWebView(htmlPath: Bundle.main.path(forResource: "eula", ofType: "html")!, title: "EULA")
                     } label: {
                         ContentListView(systemImageName: "doc.text", text: "EULA")
                     }
                     
                     NavigationLink {
-                        LocalWebView(htmlPath: Bundle.main.path(forResource: "user", ofType: "html")!)
+                        LocalWebView(htmlPath: Bundle.main.path(forResource: "user", ofType: "html")!, title: "用户协议")
                     } label: {
                         ContentListView(systemImageName: "shield.lefthalf.filled", text: "用户协议")
                     }
                     
                     NavigationLink {
-                        LocalWebView(htmlPath: Bundle.main.path(forResource: "privacy", ofType: "html")!)
+                        LocalWebView(htmlPath: Bundle.main.path(forResource: "privacy", ofType: "html")!, title: "隐私政策")
                     } label: {
                         ContentListView(systemImageName: "checkmark.shield", text: "隐私政策")
                     }
