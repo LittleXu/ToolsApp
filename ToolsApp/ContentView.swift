@@ -27,14 +27,39 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
+                
+                
                 Section {
-                   
-
                     NavigationLink {
                         AnswerBookView()
                     } label: {
                         ContentListView(systemImageName: "books.vertical", text: "答案之书")
                     }
+                    
+                    NavigationLink {
+                        TurnTableListView()
+                            .environmentObject(LotteryManager.shared)
+                    } label: {
+                        ContentListView(systemImageName: "gamecontroller.fill", text: "转盘")
+                    }
+                } header: {
+                    Text("帮你做决定?")
+                        .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
+                }
+                
+                
+                Section {
+                    NavigationLink {
+                        BaziLunarView()
+                    } label: {
+                        ContentListView(systemImageName: "calendar", text: "生辰八字")
+                    }
+                } header: {
+                    Text("万年历")
+                        .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
+                }
+                
+                Section {
                     
                     NavigationLink {
                         QRCodeView()
@@ -48,12 +73,13 @@ struct ContentView: View {
                         ContentListView(systemImageName: "barcode", text: "生成条形码")
                     }
                     
-//                    NavigationLink {
-//                        WaterMaskView()
-//                    } label: {
-//                        ContentListView(systemImageName: "photo", text: "图片去水印")
-//                    }
                     
+                } header: {
+                    Text("二维码/条形码")
+                        .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
+                }
+                
+                Section {
                     NavigationLink {
                         LinkInutView(type: .screenshot)
                     } label: {
@@ -64,22 +90,21 @@ struct ContentView: View {
                         LinkInutView(type: .extractImages)
                     } label: {
                         ContentListView(systemImageName: "photo.on.rectangle.angled", text: "提取网页图片")
-                    } 
-                    
+                    }
+                } header: {
+                    Text("网页工具")
+                        .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
+                }
+                
+                
+                Section {
                     NavigationLink {
                         Video2GIFView()
                     } label: {
                         ContentListView(systemImageName: "video.square", text: "视频转GIF")
                     }
-                    
-                    NavigationLink {
-                        TurnTableListView()
-                            .environmentObject(LotteryManager.shared)
-                    } label: {
-                        ContentListView(systemImageName: "gamecontroller.fill", text: "转盘")
-                    }
                 } header: {
-                    Text("常用工具")
+                    Text("其他")
                         .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
                 }
                 
@@ -110,7 +135,7 @@ struct ContentView: View {
                     }
                     
                 } header: {
-                    Text("其他")
+                    Text("关于")
                         .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
                 }
             }

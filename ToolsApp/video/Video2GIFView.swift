@@ -67,7 +67,7 @@ struct Video2GIFView: View {
                         ActivityIndicator(isAnimating: $showLoading, style: .medium)
                         Text("视频加载中...")
                     } else {
-                        Text("视频大小可能会影响转换的速度")
+                        Text("视频大小会影响转换的速度，请控制视频时长")
                     }
                 }
                     .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 0))
