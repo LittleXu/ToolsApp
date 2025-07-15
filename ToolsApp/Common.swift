@@ -60,9 +60,9 @@ extension Common {
 }
 
 
-
+import CoreImage
+import CoreImage.CIFilterBuiltins
 struct Common {
-    
     static func removeWatermark(from image: UIImage, watermarkFrame: CGRect) -> UIImage? {
         // Create a CIImage from the original UIImage
         guard let ciImage = CIImage(image: image) else { return nil }

@@ -57,7 +57,7 @@ struct WaterMaskView: View {
                     }
                     .frame(maxWidth: .infinity)
                 } footer: {
-                    Text("长按保存条形码")
+                    Text("长按保存图片")
                         .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 0))
                 }
             }

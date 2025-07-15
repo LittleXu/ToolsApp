@@ -103,6 +103,14 @@ struct ContentView: View {
                     } label: {
                         ContentListView(systemImageName: "video.square", text: "视频转GIF")
                     }
+                    
+//                    NavigationLink {
+//                        WaterMaskView()
+//                    } label: {
+//                        ContentListView(systemImageName: "photo.on.rectangle.angled", text: "图片去水印")
+//                    }
+
+                    
                 } header: {
                     Text("其他")
                         .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
