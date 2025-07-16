@@ -48,10 +48,15 @@
 		829F5BDA2C05658D00ED6D22 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F5BD92C05658D00ED6D22 /* GifView.swift */; };
 		829F5BDC2C0565EB00ED6D22 /* durian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 829F5BDB2C0565EB00ED6D22 /* durian.gif */; };
 		82AE38AB2D563DDC000B3A24 /* LocalWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AE38AA2D563DDC000B3A24 /* LocalWebView.swift */; };
+		82C69A412E273A5F00359A62 /* PhotoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C69A402E273A5F00359A62 /* PhotoPreview.swift */; };
 		82D077722C05ACD400F7ECF6 /* TurnTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D077712C05ACD400F7ECF6 /* TurnTableView.swift */; };
 		82D077742C05AD3D00F7ECF6 /* LotteryWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D077732C05AD3D00F7ECF6 /* LotteryWheelView.swift */; };
 		82D077762C06C46100F7ECF6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D077752C06C46100F7ECF6 /* ColorExtension.swift */; };
 		82D077782C06C4FA00F7ECF6 /* SectorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D077772C06C4FA00F7ECF6 /* SectorShape.swift */; };
+		82D10F062E2604CB0049C587 /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D10F052E2604CB0049C587 /* PaletteView.swift */; };
+		82D10F082E26234E0049C587 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D10F072E26234E0049C587 /* CameraPreview.swift */; };
+		82D10F0A2E2623620049C587 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D10F092E2623620049C587 /* CameraViewModel.swift */; };
+		82D10F0C2E2623870049C587 /* HoleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D10F0B2E2623870049C587 /* HoleShape.swift */; };
 		82F5356B2C08222B0036D420 /* TurnTableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F5356A2C08222B0036D420 /* TurnTableListView.swift */; };
 		82F5356E2C085B240036D420 /* gogogo_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82F5356D2C085B240036D420 /* gogogo_1.gif */; };
 		82F535722C096F730036D420 /* gogogo_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82F5356F2C096F730036D420 /* gogogo_2.gif */; };
@@ -103,10 +108,15 @@
 		829F5BDB2C0565EB00ED6D22 /* durian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = durian.gif; sourceTree = "<group>"; };
 		82AE38AA2D563DDC000B3A24 /* LocalWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebView.swift; sourceTree = "<group>"; };
 		82AE38AC2D5654AA000B3A24 /* ToolsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToolsApp.entitlements; sourceTree = "<group>"; };
+		82C69A402E273A5F00359A62 /* PhotoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreview.swift; sourceTree = "<group>"; };
 		82D077712C05ACD400F7ECF6 /* TurnTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnTableView.swift; sourceTree = "<group>"; };
 		82D077732C05AD3D00F7ECF6 /* LotteryWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryWheelView.swift; sourceTree = "<group>"; };
 		82D077752C06C46100F7ECF6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		82D077772C06C4FA00F7ECF6 /* SectorShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorShape.swift; sourceTree = "<group>"; };
+		82D10F052E2604CB0049C587 /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
+		82D10F072E26234E0049C587 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		82D10F092E2623620049C587 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		82D10F0B2E2623870049C587 /* HoleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleShape.swift; sourceTree = "<group>"; };
 		82F5356A2C08222B0036D420 /* TurnTableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnTableListView.swift; sourceTree = "<group>"; };
 		82F5356D2C085B240036D420 /* gogogo_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gogogo_1.gif; sourceTree = "<group>"; };
 		82F5356F2C096F730036D420 /* gogogo_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gogogo_2.gif; sourceTree = "<group>"; };
@@ -238,6 +248,7 @@
 				822D16DC2BF75E9D00CCE42A /* ToolsAppApp.swift */,
 				822D16DE2BF75E9D00CCE42A /* ContentView.swift */,
 				821E19C92BFADC6A00360AB6 /* Common.swift */,
+				82D10F042E2604B30049C587 /* palette */,
 				827941F52DD5E36600558E76 /* lunar */,
 				823C740F2C0F020400C05AB1 /* answerbook */,
 				829F5BCE2C0475F600ED6D22 /* extension */,
@@ -324,6 +335,18 @@
 				82D077772C06C4FA00F7ECF6 /* SectorShape.swift */,
 			);
 			path = turntable;
+			sourceTree = "<group>";
+		};
+		82D10F042E2604B30049C587 /* palette */ = {
+			isa = PBXGroup;
+			children = (
+				82D10F052E2604CB0049C587 /* PaletteView.swift */,
+				82D10F072E26234E0049C587 /* CameraPreview.swift */,
+				82D10F092E2623620049C587 /* CameraViewModel.swift */,
+				82D10F0B2E2623870049C587 /* HoleShape.swift */,
+				82C69A402E273A5F00359A62 /* PhotoPreview.swift */,
+			);
+			path = palette;
 			sourceTree = "<group>";
 		};
 		82F5356C2C085B180036D420 /* rosources */ = {
@@ -463,8 +486,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				827941F72DD5E37600558E76 /* BaziLunarView.swift in Sources */,
+				82C69A412E273A5F00359A62 /* PhotoPreview.swift in Sources */,
+				82D10F0A2E2623620049C587 /* CameraViewModel.swift in Sources */,
 				821911822BFD864400810C49 /* NetworkScannerView.swift in Sources */,
 				821911972C003DFA00810C49 /* ActivityIndicator.swift in Sources */,
+				82D10F082E26234E0049C587 /* CameraPreview.swift in Sources */,
 				82D077782C06C4FA00F7ECF6 /* SectorShape.swift in Sources */,
 				829F5BD22C04761E00ED6D22 /* ImageExtension.swift in Sources */,
 				821E19CA2BFADC6A00360AB6 /* Common.swift in Sources */,
@@ -484,7 +510,9 @@
 				822D16EC2BF75F3A00CCE42A /* QRCodeView.swift in Sources */,
 				82D077742C05AD3D00F7ECF6 /* LotteryWheelView.swift in Sources */,
 				826EDC802C04143000286EA9 /* Video2GIFView.swift in Sources */,
+				82D10F062E2604CB0049C587 /* PaletteView.swift in Sources */,
 				822D16DF2BF75E9D00CCE42A /* ContentView.swift in Sources */,
+				82D10F0C2E2623870049C587 /* HoleShape.swift in Sources */,
 				821E19DB2BFC3D0800360AB6 /* WaterMasterUtil.swift in Sources */,
 				821911802BFD801E00810C49 /* NetworkScanner.swift in Sources */,
 				821E19CE2BFB1F3C00360AB6 /* PhotoPicker.swift in Sources */,
@@ -631,7 +659,7 @@
 				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
@@ -639,6 +667,7 @@
 				INFOPLIST_FILE = ToolsApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "榴莲工具箱";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许本项目使用您的相机?以便于拍照并处理图片";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "是否允许本项目使用您的本地网络?以便于查找附近的设备";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
@@ -648,12 +677,13 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
 				PRODUCT_NAME = "榴莲工具箱";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -676,7 +706,7 @@
 				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
@@ -684,6 +714,7 @@
 				INFOPLIST_FILE = ToolsApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "榴莲工具箱";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许本项目使用您的相机?以便于拍照并处理图片";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "是否允许本项目使用您的本地网络?以便于查找附近的设备";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允许本项目使用您的相册?以便于获取并处理图片";
@@ -693,12 +724,13 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
 				PRODUCT_NAME = "榴莲工具箱";
 				PROVISIONING_PROFILE_SPECIFIER = "";

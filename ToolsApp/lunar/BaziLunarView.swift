@@ -35,6 +35,7 @@ struct BaziLunarView: View {
                 Section {
                     DatePicker("选择出生时间(阳历)", selection: $selectedDate, displayedComponents: [.date, .hourAndMinute])
                         .datePickerStyle(.graphical)
+                        .environment(\.locale, Locale(identifier: "zh_CN"))
                 } header: {
                     Text("请选择出生时间(阳历)")
                         .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))

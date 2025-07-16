@@ -28,6 +28,19 @@ struct ContentView: View {
         NavigationView {
             List {
                 
+                #if DEBUG
+                Section {
+                    
+                    NavigationLink {
+                        PaletteView()
+                    } label: {
+                        ContentListView(systemImageName: "camera.aperture", text: "补色板")
+                    }
+                } header: {
+                    Text("新功能")
+                        .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
+                }
+                #endif
                 
                 Section {
                     NavigationLink {
@@ -103,14 +116,7 @@ struct ContentView: View {
                     } label: {
                         ContentListView(systemImageName: "video.square", text: "视频转GIF")
                     }
-                    
-//                    NavigationLink {
-//                        WaterMaskView()
-//                    } label: {
-//                        ContentListView(systemImageName: "photo.on.rectangle.angled", text: "图片去水印")
-//                    }
-
-                    
+                                     
                 } header: {
                     Text("其他")
                         .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
