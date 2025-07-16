@@ -28,7 +28,6 @@ struct ContentView: View {
         NavigationView {
             List {
                 
-                #if DEBUG
                 Section {
                     
                     NavigationLink {
@@ -40,7 +39,6 @@ struct ContentView: View {
                     Text("新功能")
                         .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
                 }
-                #endif
                 
                 Section {
                     NavigationLink {
