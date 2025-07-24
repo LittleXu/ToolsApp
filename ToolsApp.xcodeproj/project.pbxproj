@@ -36,6 +36,12 @@
 		8252C12F2C0FFC6A00BA0F09 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 8252C12E2C0FFC6A00BA0F09 /* PopupView */; };
 		8253DF2B2C0EBA0A00647800 /* NavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253DF2A2C0EBA0A00647800 /* NavigationControllerExtension.swift */; };
 		8253DF2D2C0EBB1300647800 /* EditTurnTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253DF2C2C0EBB1300647800 /* EditTurnTableView.swift */; };
+		825FACF82E2F343300000416 /* LEDBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FACF62E2F343300000416 /* LEDBannerView.swift */; };
+		825FACF92E2F343300000416 /* ScrollingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FACF72E2F343300000416 /* ScrollingTextView.swift */; };
+		825FACFC2E2F346500000416 /* LEDColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FACFB2E2F346500000416 /* LEDColorScheme.swift */; };
+		825FACFE2E2F666900000416 /* LEDBannerFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FACFD2E2F666900000416 /* LEDBannerFullScreenView.swift */; };
+		825FAD092E2F82DD00000416 /* LEDBannerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FAD082E2F82DD00000416 /* LEDBannerConfig.swift */; };
+		825FAD0B2E2F8A5100000416 /* LEDBannerHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FAD0A2E2F8A5100000416 /* LEDBannerHistoryView.swift */; };
 		826EDC802C04143000286EA9 /* Video2GIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826EDC7F2C04143000286EA9 /* Video2GIFView.swift */; };
 		826EDC822C0416A000286EA9 /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826EDC812C0416A000286EA9 /* VideoPicker.swift */; };
 		827941F42DD5E0F300558E76 /* LunarSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 827941F32DD5E0F300558E76 /* LunarSwift */; };
@@ -96,6 +102,12 @@
 		823C74122C0F025D00C05AB1 /* Answers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
 		8253DF2A2C0EBA0A00647800 /* NavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerExtension.swift; sourceTree = "<group>"; };
 		8253DF2C2C0EBB1300647800 /* EditTurnTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTurnTableView.swift; sourceTree = "<group>"; };
+		825FACF62E2F343300000416 /* LEDBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBannerView.swift; sourceTree = "<group>"; };
+		825FACF72E2F343300000416 /* ScrollingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingTextView.swift; sourceTree = "<group>"; };
+		825FACFB2E2F346500000416 /* LEDColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDColorScheme.swift; sourceTree = "<group>"; };
+		825FACFD2E2F666900000416 /* LEDBannerFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBannerFullScreenView.swift; sourceTree = "<group>"; };
+		825FAD082E2F82DD00000416 /* LEDBannerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBannerConfig.swift; sourceTree = "<group>"; };
+		825FAD0A2E2F8A5100000416 /* LEDBannerHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBannerHistoryView.swift; sourceTree = "<group>"; };
 		826EDC7F2C04143000286EA9 /* Video2GIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video2GIFView.swift; sourceTree = "<group>"; };
 		826EDC812C0416A000286EA9 /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
 		827941F62DD5E37600558E76 /* BaziLunarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaziLunarView.swift; sourceTree = "<group>"; };
@@ -248,6 +260,8 @@
 				822D16DC2BF75E9D00CCE42A /* ToolsAppApp.swift */,
 				822D16DE2BF75E9D00CCE42A /* ContentView.swift */,
 				821E19C92BFADC6A00360AB6 /* Common.swift */,
+				825FACFF2E2F742D00000416 /* common */,
+				825FACFA2E2F344600000416 /* led */,
 				82D10F042E2604B30049C587 /* palette */,
 				827941F52DD5E36600558E76 /* lunar */,
 				823C740F2C0F020400C05AB1 /* answerbook */,
@@ -293,6 +307,26 @@
 				823C74102C0F021700C05AB1 /* AnswerBookView.swift */,
 			);
 			path = answerbook;
+			sourceTree = "<group>";
+		};
+		825FACFA2E2F344600000416 /* led */ = {
+			isa = PBXGroup;
+			children = (
+				825FACF62E2F343300000416 /* LEDBannerView.swift */,
+				825FACFD2E2F666900000416 /* LEDBannerFullScreenView.swift */,
+				825FACF72E2F343300000416 /* ScrollingTextView.swift */,
+				825FACFB2E2F346500000416 /* LEDColorScheme.swift */,
+				825FAD082E2F82DD00000416 /* LEDBannerConfig.swift */,
+				825FAD0A2E2F8A5100000416 /* LEDBannerHistoryView.swift */,
+			);
+			path = led;
+			sourceTree = "<group>";
+		};
+		825FACFF2E2F742D00000416 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 		826EDC7E2C04140800286EA9 /* video */ = {
@@ -490,6 +524,8 @@
 				82D10F0A2E2623620049C587 /* CameraViewModel.swift in Sources */,
 				821911822BFD864400810C49 /* NetworkScannerView.swift in Sources */,
 				821911972C003DFA00810C49 /* ActivityIndicator.swift in Sources */,
+				825FAD0B2E2F8A5100000416 /* LEDBannerHistoryView.swift in Sources */,
+				825FACFE2E2F666900000416 /* LEDBannerFullScreenView.swift in Sources */,
 				82D10F082E26234E0049C587 /* CameraPreview.swift in Sources */,
 				82D077782C06C4FA00F7ECF6 /* SectorShape.swift in Sources */,
 				829F5BD22C04761E00ED6D22 /* ImageExtension.swift in Sources */,
@@ -501,6 +537,9 @@
 				821911952BFF2A3800810C49 /* PhotoBrowser.swift in Sources */,
 				8253DF2B2C0EBA0A00647800 /* NavigationControllerExtension.swift in Sources */,
 				821911892BFDF58500810C49 /* BrowerView.swift in Sources */,
+				825FACF82E2F343300000416 /* LEDBannerView.swift in Sources */,
+				825FACF92E2F343300000416 /* ScrollingTextView.swift in Sources */,
+				825FAD092E2F82DD00000416 /* LEDBannerConfig.swift in Sources */,
 				8253DF2D2C0EBB1300647800 /* EditTurnTableView.swift in Sources */,
 				829F5BD02C04760500ED6D22 /* ApplicationExtension.swift in Sources */,
 				821E19D92BFC3AFD00360AB6 /* WaterMaskView.swift in Sources */,
@@ -519,6 +558,7 @@
 				829F5BD62C048DF100ED6D22 /* LocalPhotoBrowser.swift in Sources */,
 				8219118B2BFDF78B00810C49 /* LinkInutView.swift in Sources */,
 				82F5356B2C08222B0036D420 /* TurnTableListView.swift in Sources */,
+				825FACFC2E2F346500000416 /* LEDColorScheme.swift in Sources */,
 				82F535782C09A9700036D420 /* NewTurnTableView.swift in Sources */,
 				829F5BD42C047CEA00ED6D22 /* ArrayExtension.swift in Sources */,
 				82D077722C05ACD400F7ECF6 /* TurnTableView.swift in Sources */,
@@ -659,7 +699,7 @@
 				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
@@ -683,7 +723,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
 				PRODUCT_NAME = "榴莲工具箱";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -706,7 +746,7 @@
 				CODE_SIGN_ENTITLEMENTS = ToolsApp/ToolsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"ToolsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z9922QR99N;
 				ENABLE_PREVIEWS = YES;
@@ -730,7 +770,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.durian.toolsapp;
 				PRODUCT_NAME = "榴莲工具箱";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -30,11 +30,21 @@ struct ContentView: View {
                 
                 Section {
                     
+                    
+                    NavigationLink {
+                        LEDBannerView()
+                    } label: {
+                        ContentListView(systemImageName: "light.beacon.max", text: "应援字幕机")
+                    }
+                    
                     NavigationLink {
                         PaletteView()
                     } label: {
                         ContentListView(systemImageName: "camera.aperture", text: "补色板")
                     }
+                    
+                    
+                    
                 } header: {
                     Text("新功能")
                         .padding(EdgeInsets(top: 0, leading: -16, bottom: 8, trailing: 0))
